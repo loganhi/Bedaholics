@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0;
+  }
+  
+  body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    color: black;
+    line-height:1.6;
+  }
+  
+  img.logo{
+    width: 45vw;
+    height: auto;
+    margin: 20px;
+  }
+
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  a:hover{
+      color: #1c1c1c
+  }
+  
+  #showcase{
+    background-image:url(../images/white-bed-comforter-212269.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    margin: 10px;
+    font-size: 7vw;;
+    line-height:1.2;
+  }
+
+  #showcase h2{
+    margin: 10px;
+    font-size: 35px;
+    line-height:1.2;
+  }
+  
+  #showcase p{
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  #tele{
+    font-size: 20px;
+  }
