@@ -54,7 +54,11 @@ div.bg-white {
 
 div.carousel-inner {
   max-height: 40rem!important;
-  justify-content: center;
+  width: auto;
+}
+
+div.carosel-item img{
+  transform: translateY(-55%);
 }
 
 ol.carousel-indicators li {
