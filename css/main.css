@@ -14,6 +14,7 @@ html, body {
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.089);
 }
 
 .nav-item {
@@ -27,6 +28,6 @@ html, body {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #396afc!important;
+  color: #0070CC!important;
   
 }
