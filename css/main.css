@@ -29,5 +29,37 @@ html, body {
 .nav-link.active,
 .nav-link:hover {
   color: #0070CC!important;
-  
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+}
+
+div.bg-dark {
+  background-color: rgba(0, 0, 0, 0.644)!important;
+  border-radius: .3rem;
+  padding: .5rem;
+  padding-right: 1rem;
+}
+
+div.bg-white {
+  background-color: rgba(255, 255, 255, 0.575)!important;
+  border-radius: .3rem;
+  padding: .5rem;
+  padding-right: 1rem;
+  color: black;
+}
+
+div.carousel-inner {
+  max-height: 40rem!important;
+  justify-content: center;
+}
+
+ol.carousel-indicators li {
+  width: 40px;
+  height: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
