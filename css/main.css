@@ -67,3 +67,9 @@ ol.carousel-indicators li {
   margin-left: 4px;
   margin-right: 4px;
 }
+
+img.bottom-content{
+  height: 10rem;
+  width: auto;
+
+}
